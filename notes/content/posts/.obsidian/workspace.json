@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "dd5f75e6cbb050d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Testing push.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GitHub shortcut.md",
+                "file": "Testing push.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GitHub shortcut.md",
+                "file": "Testing push.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub shortcut.md"
+                "file": "Testing push.md"
               }
             }
           }
@@ -161,10 +173,11 @@
     "width": 300,
     "collapsed": true
   },
-  "active": "c513d1760eb097a2",
+  "active": "dd5f75e6cbb050d6",
   "lastOpenFiles": [
     "githubInstall.md",
-    "GitHub shortcut.md",
-    "hugotogithub.md"
+    "Testing push.md",
+    "hugotogithub.md",
+    "GitHub shortcut.md"
   ]
 }
