@@ -42,4 +42,4 @@ git push origin main
 If you have set global credentials your new post will be uploaded within 1-2 minutes.
 Enjoy!
 
-Note: Get full detail on [Hugo To Github]{{<ref "/hugotogithub">}} "Hugo To Github"
+Note: Get full detail on [Hugo To Github] ({{<ref "/hugotogithub">}})
