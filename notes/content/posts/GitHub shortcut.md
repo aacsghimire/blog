@@ -11,7 +11,7 @@ Here is a [Stack Overflow Link](https://stackoverflow.com/questions/35942754/how
 Steps:
 1. Outside your blog folder create an empty file.
 2. Rename it to _deploy.sh_
-3. Now we need to edit the code you can copy the code below make sure yoiu change the name of the directories.
+3. Now we need to edit the code, you can copy the code below. Make sure you change the name of the directories.
 ```
 #!/bin/bash
 
