@@ -18,8 +18,8 @@ params:
           url: https://twitter.com/aacsghimire
         # - name: youtube
         #   url:
-        - name: tiktok
-          url: https://tiktok.com/@ghostaacs
+        # - name: tiktok
+        #   url: https://tiktok.com/@ghostaacs
     
     # blog configurations
     ShowReadingTime: true
