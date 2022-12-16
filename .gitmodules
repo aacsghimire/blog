@@ -1,0 +1,4 @@
+[submodule "notes/public"]
+	path = notes/public
+	url = https://github.com/aacsghimire/aacsghimire.github.io.git
+	branch = main

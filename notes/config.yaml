@@ -1,0 +1,73 @@
+baseURL: https://notes.ashishghimire.com/
+# baseURL: https://localhost:1313
+languageCode: en-us
+title: NOTES
+theme: PaperMod
+
+enableRobotsTXT: true
+
+googleAnalytics: G-1N1YQXV33M
+
+params:
+    homeInfoParams:
+        Title: Road to OSCP
+        Content: This is my notesite I post anything I learn along the way.
+
+    socialIcons: # optional
+        - name: twitter
+          url: https://twitter.com/aacsghimire
+        # - name: youtube
+        #   url:
+        - name: tiktok
+          url: https://tiktok.com/@ghostaacs
+    
+    # blog configurations
+    ShowReadingTime: true
+    ShowShareButtons: true 
+    ShowPostNavLinks: true # shows mext and previous
+    ShowBreadCrumbs: true
+    ShowRssButtonInSectionTermList: true 
+    ShowCodeCopyButtons: false
+    
+    #for enhanced SEO
+    env: production
+
+    #modify icons
+    assets:
+        favicon: /img/favicon/favicon.ico
+        apple_touch_icon: /img/favicon/apple-touch-icon.png
+    label:
+        text: Ashish
+        icon: /img/logo/logoWhite.png
+        iconHeight: 35
+
+# mostly for search and Output
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # is necessary
+
+# main for top 
+menu:
+    main:
+        - identifier: archive
+          name: Archive
+          url: /archives/
+
+        - identifier: search
+          name: Search
+          url: /search/
+        
+        - identifier: categories
+          name: Categories
+          url: /categories/
+        
+        - identifier: tag
+          name: TAGS
+          url: /tags/
+
+        - identifier: Dashboard
+          name: Dashboard
+          url: https://ashishghimire.com
+
