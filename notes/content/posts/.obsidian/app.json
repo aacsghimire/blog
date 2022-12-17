@@ -1,4 +1,6 @@
 {
   "promptDelete": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "alwaysUpdateLinks": false,
+  "attachmentFolderPath": "/home/ghostpc/Desktop/Hugo/Website/notesite/blog/notes/static/img/contents/"
 }

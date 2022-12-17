@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "ReconnaissancePart1.md",
+                "file": "ReconaissancePart2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "ReconnaissancePart1.md",
+                "file": "ReconaissancePart2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "ReconnaissancePart1.md",
+                "file": "ReconaissancePart2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "ReconnaissancePart1.md"
+                "file": "ReconaissancePart2.md"
               }
             }
           }
@@ -137,13 +137,15 @@
   },
   "active": "cdb253a2aaf4fdfa",
   "lastOpenFiles": [
+    "reconpart2.png",
+    "ReconaissancePart2.md",
+    "reconpart2.png.md",
+    "ReconnaissancePart1.md",
     "CourseStructure.md",
     "GitHub shortcut.md",
     "githubInstall.md",
     "hugotogithub.md",
-    "ReconnaissancePart1.md",
     "Day1 Hacking Methodology.md",
-    "CompleteHackingCourse.md",
-    "Testing push.md"
+    "CompleteHackingCourse.md"
   ]
 }
