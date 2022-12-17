@@ -38,7 +38,7 @@ params:
         apple_touch_icon: /img/favicon/apple-touch-icon.png
     label:
         text: Ashish
-        icon: /img/logo/logoWhite.png
+        icon: /img/logo/dark.png
         iconHeight: 35
 
 # mostly for search and Output

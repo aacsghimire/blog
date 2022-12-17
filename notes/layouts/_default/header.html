@@ -63,8 +63,13 @@
                     <img src="{{ $img.Permalink }}" alt="" aria-label="logo"
                         height="{{- site.Params.label.iconHeight | default "30" -}}">
                 {{- else }}
-                <img src="{{- site.Params.label.icon | absURL -}}" alt="" aria-label="logo"
+                <img id="siteLogo" src="{{- site.Params.label.icon | absURL -}}" alt="logo" aria-label="logo"
                     height="{{- site.Params.label.iconHeight | default "30" -}}">
+                    <script>
+                        if (document.body.className.includes("dark")) {
+                            document.getElementById("siteLogo").src = "/images/pushblue-light.png";
+                        }
+                    </script>
                 {{- end -}}
                 {{- else if hasPrefix site.Params.label.iconSVG "<svg" }}
                     {{ site.Params.label.iconSVG | safeHTML }}
