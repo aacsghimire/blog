@@ -1,5 +1,5 @@
 ---
-title: "Reconaissance Part 2"
+title: "Reconnaissance Part 2"
 date: 2022-12-17T22:38:00+11:00
 draft: false
 tags: [ "Reconnaisance", "Password Osint", "Email Osint", "Hacking Tools"]
