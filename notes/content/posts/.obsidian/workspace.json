@@ -4,83 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "38a9f30706894147",
+        "id": "f6d4c53a8cb66654",
         "type": "tabs",
         "children": [
           {
-            "id": "377bb90405000b72",
+            "id": "cdb253a2aaf4fdfa",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "hugotogithub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "2726c824b4953126",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "githubInstall.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c513d1760eb097a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "GitHub shortcut.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "dd5f75e6cbb050d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "hugotogithub.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "a80f2e6fdd1dd703",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CourseStructure.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "28a0cfb9da82fdab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Day1 Hacking Methodology.md",
+                "file": "ReconnaissancePart1.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "vertical"
@@ -146,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Day1 Hacking Methodology.md",
+                "file": "ReconnaissancePart1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -163,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Day1 Hacking Methodology.md",
+                "file": "ReconnaissancePart1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Day1 Hacking Methodology.md"
+                "file": "ReconnaissancePart1.md"
               }
             }
           }
@@ -196,11 +135,11 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "28a0cfb9da82fdab",
+  "active": "cdb253a2aaf4fdfa",
   "lastOpenFiles": [
-    "CourseStructure.md",
-    "Day1 Hacking Methodology.md",
     "GitHub shortcut.md",
+    "Day1 Hacking Methodology.md",
+    "CourseStructure.md",
     "hugotogithub.md",
     "CompleteHackingCourse.md",
     "githubInstall.md",
