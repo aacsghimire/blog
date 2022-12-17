@@ -3,6 +3,7 @@ title: "The Ethical Hacker Methodology "
 date: 2022-12-17
 draft: false
 tags: [ "Ethical Hacker", "5 Stages of Ethical Hacker", "Ethical Hack Step by Step", "TCM-Sec"]
+categories: ["Ethical Hacking"]
 ---
 
 ## Reconissance
