@@ -19,7 +19,7 @@ categories: ["Ethical Hacking"]
 
 Use _Forgot Password_ to tie email accounts.
 
-<img loading="lazy" src="/img/reconpart2.png" alt=""  />
+<img loading="lazy" src="/img/reconpart2.png" alt="image"  />
 
 In this way a recovery email can be tied to another email address.
 
