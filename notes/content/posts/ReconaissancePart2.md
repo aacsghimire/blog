@@ -25,4 +25,5 @@ In this way a recovery email can be tied to another email address.
 ---
 
 ### Password OSINT
+1.
 ![[img/reconpart2.png]]
