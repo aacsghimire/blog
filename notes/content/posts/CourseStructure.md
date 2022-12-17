@@ -1,3 +1,9 @@
+---
+title: "Course Structure for Ethical Hacking"
+date: 2022-12-16T12:43:19+11:00
+draft: false
+tags: [ "course structure", "TCM Sec Course", "Course List", "Ethical Hacking Contents", "Ethical Hacking"]
+---
 The course that i am following is from [TCM Academy](https://academy.tcm-sec.com/)
 
 Here is the course structure which you can also see in [TCM-Sec Website](https://academy.tcm-sec.com/p/practical-ethical-hacking-the-complete-course) [The Cyber Mentor Youtube](https://www.youtube.com/watch?v=fNzpcB7ODxQ) and also on before enrolling.
