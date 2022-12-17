@@ -13,12 +13,14 @@ I am also going to setup so new posts can be added and published on your website
 1. Login Github
 2. Install Hugo On System
 3. Create Two Repos on Github
-		a. _blog_
-			*Houses our hugo code*
-		b. username.github.io
-			_For website generated pages_
+
+	a. _blog_
+		*Houses our hugo code*
+	b. username.github.io
+		_For website generated pages_
+
 4. Get Theme for Hugo (PaperMod)
-5. Clone '_blog_ ' Repo in Desktop (*notesite*) `git clone https://github.com/aacsghimire/blog.git`
+5. Clone '_blog_ ' Repo in Desktop (*notesite*) `git clone https://github.com/*/blog.git`
 6. Inside blog repo _run Hugo_
 	1. */blog/* `hugo new site notes`
 	2. */blog/* `cd notes/theme`
@@ -35,25 +37,25 @@ I am also going to setup so new posts can be added and published on your website
 
 ## Submodule
 1. Go back to */notesite/* `cd ../`
-2. */notesite/* `git clone https://github.com/aacsghimire/aacsghimire.github.io`
-3. */notesite/* `cd aacsghimire.github.io`
-4. create and switch to _main_ branch */aacsghimire.github.io/* `git checkout -b main`
-5. have atleast one commit as readme */aacsghimire.github.io/* `touch readme.md`
-6. */aacsghimire.github.io/* `git add .`
-7. commit to _main_ */aacsghimire.github.io/* `git commit -m "Adding Readme"`
-8. push to main branch */aacsghimire.github.io/* `git push origin main`
+2. */notesite/* `git clone https://github.com/username/username.github.io`
+3. */notesite/* `cd username.github.io`
+4. create and switch to _main_ branch */username.github.io/* `git checkout -b main`
+5. have atleast one commit as readme */username.github.io/* `touch readme.md`
+6. */username.github.io/* `git add .`
+7. commit to _main_ */username.github.io/* `git commit -m "Adding Readme"`
+8. push to main branch */username.github.io/* `git push origin main`
 
 ## Add Git Submodule
 	References to the repository.
-1. */aacsghimire.github.io/* `cd ../`
+1. */username.github.io/* `cd ../`
 2. */notesite/* `cd blog`
 3. */blog/* `cd notes`
 4. Add static genereated files to */public/* folder:
-	 */notes/* `git submodule add -b main https://github.com/aacsghimire/aacsghimire.github.io public`
+	 */notes/* `git submodule add -b main https://github.com/username/username.github.io public`
 5. Build site using */notes/* `hugo -t PaperMod`
 6. All static sites are generated in *public* Folder
 
-### Upload to aacsghimire.github.io
+### Upload to username.github.io
 1. Inside */public/* folder
    */public/* `git add .`
    */public/* `git commit -m "First static upload"`
@@ -62,7 +64,7 @@ I am also going to setup so new posts can be added and published on your website
 
 NOTE: Folder Structure
 */notesite/blog/notes/public*
-*/notesite/aacsghimire.github.io/*
+*/notesite/username.github.io/*
 
 # ADDING NEW POST AND PUBLISHING
 
@@ -87,5 +89,5 @@ NOTE: Folder Structure
 NOTE: Folder Structure
 
 /notesite/blog/notes/public/
-/notesite/aacsghimire.github.io/
+/notesite/username.github.io/
 ```
