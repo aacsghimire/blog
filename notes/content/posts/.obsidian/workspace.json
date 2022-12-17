@@ -54,9 +54,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "a80f2e6fdd1dd703",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CourseStructure.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -102,8 +114,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -123,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "hugotogithub.md",
+                "file": "CourseStructure.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "hugotogithub.md",
+                "file": "CourseStructure.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -163,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "hugotogithub.md"
+                "file": "CourseStructure.md"
               }
             }
           }
@@ -173,11 +184,13 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "99957f9bfda33cd0",
+  "active": "28343ccc24e08e7f",
   "lastOpenFiles": [
+    "CompleteHackingCourse.md",
+    "CourseStructure.md",
+    "hugotogithub.md",
     "githubInstall.md",
     "GitHub shortcut.md",
-    "hugotogithub.md",
     "Testing push.md"
   ]
 }
