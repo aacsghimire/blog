@@ -18,7 +18,7 @@ categories: ["Ethical Hacking"]
 - tools.verifyemailaddress.io (Verify Email Address)
 
 Use _Forgot Password_ to tie email accounts.
-<img src="/img/contents/reconpart2.png">
+<img src="/../contents/reconpart2.png">Password
 
 In this way a recovery email can be tied to another email address.
 
