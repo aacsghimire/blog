@@ -4,6 +4,7 @@ date: 2022-12-17T22:38:00+11:00
 draft: false
 tags: [ "Reconnaisance", "Password Osint", "Email Osint", "Hacking Tools"]
 categories: ["Ethical Hacking"]
+images: ["/img/reconpart2.png"]
 ---
 
 ### OSINT
@@ -19,7 +20,7 @@ categories: ["Ethical Hacking"]
 
 Use _Forgot Password_ to tie email accounts.
 
-<img loading="lazy" src="/img/reconpart2.png" alt="image"  />
+<img loading="lazy" src="img/reconpart2.png" alt="image"  />
 
 In this way a recovery email can be tied to another email address.
 
