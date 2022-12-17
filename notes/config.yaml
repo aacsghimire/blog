@@ -22,6 +22,7 @@ params:
         #   url: https://tiktok.com/@ghostaacs
     
     # blog configurations
+    canonicalURL: true
     ShowReadingTime: true
     ShowShareButtons: true 
     ShowPostNavLinks: true # shows mext and previous
