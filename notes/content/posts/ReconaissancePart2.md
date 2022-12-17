@@ -70,4 +70,6 @@ Setup
 Installed
 - Turn on Intercept
 - Check Website from Browser
+- Turn off intercept
+- Check Through Data
 ~~~
