@@ -1,5 +1,5 @@
 ---
-title: "ReconaissancePart2"
+title: "Reconaissance Part 2"
 date: 2022-12-17T22:38:00+11:00
 draft: false
 tags: [ "Reconnaisance", "Password Osint", "Email Osint", "Hacking Tools"]
@@ -25,5 +25,4 @@ In this way a recovery email can be tied to another email address.
 ---
 
 ### Password OSINT
-1.
-![[img/reconpart2.png]]
+![[/img/reconpart2.png]]
