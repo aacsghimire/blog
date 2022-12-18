@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "f6d4c53a8cb66654",
+        "id": "d0f36dd49ffdf97c",
         "type": "tabs",
         "children": [
           {
-            "id": "cdb253a2aaf4fdfa",
+            "id": "b2957f818f6878f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "installingKioptrix.md",
+                "file": "kioptrixWalkthrough1.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "installingKioptrix.md",
+                "file": "kioptrixWalkthrough1.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "installingKioptrix.md",
+                "file": "kioptrixWalkthrough1.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "installingKioptrix.md"
+                "file": "kioptrixWalkthrough1.md"
               }
             }
           }
@@ -135,17 +135,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "cdb253a2aaf4fdfa",
+  "active": "b2957f818f6878f7",
   "lastOpenFiles": [
     "ReconaissancePart2.md",
     "installingKioptrix.md",
+    "kioptrixWalkthrough1.md",
+    "posts/img/kioptrixwt1_1.png.md",
     "posts/img/reconpart2.png.md",
     "Day1 Hacking Methodology.md",
     "img/reconpart2.png",
     "reconpart2.png",
     "reconpart2.png.md",
-    "ReconnaissancePart1.md",
-    "CourseStructure.md",
-    "GitHub shortcut.md"
+    "ReconnaissancePart1.md"
   ]
 }
