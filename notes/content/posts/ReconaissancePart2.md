@@ -20,7 +20,7 @@ images: ["/img/reconpart2.png"]
 
 Use _Forgot Password_ to tie email accounts.
 
-<img loading="lazy" src="img/reconpart2.png" alt="image"  />
+![tiedAccounts](/posts/img/reconpart2.png)
 
 In this way a recovery email can be tied to another email address.
 
