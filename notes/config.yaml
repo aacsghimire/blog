@@ -1,7 +1,7 @@
 baseURL: https://notes.ashishghimire.com/
 # baseURL: https://localhost:1313
 languageCode: en-us
-title: NOTES
+title: NOTES of Ethical Hacking Student
 theme: PaperMod
 
 enableRobotsTXT: true
