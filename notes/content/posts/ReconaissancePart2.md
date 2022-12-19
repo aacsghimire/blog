@@ -66,6 +66,7 @@ Setup
 	- check boxes and OK.
 ~~~
 
+![tiedAccounts](/posts/img/reconpart2_2.png)
 ~~~ 
 Installed
 - Turn on Intercept
