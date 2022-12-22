@@ -48,7 +48,7 @@ _*Note: more extension more time*_
 	Security Testing Web Applications
 
 - start Burpsuite
-- Setup your browser for burpsuite from [here]()
+- Setup your browser for burpsuite from [here](https://notes.ashishghimire.com/posts/reconaissancepart2/)
 - Next, Use Burp default
 - Start Burp
 - Choose _Proxy_ from Top Menu
