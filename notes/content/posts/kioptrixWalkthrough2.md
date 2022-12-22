@@ -15,7 +15,7 @@ Default Password: TwoCows2
 	`Web Vulneribility Scanner`
 - `nikto -h target ip*`
 	- i.e nikto -host url
-![niktoScan](/posts/img/kioptrix2_1.png)
+![niktoScan](/posts/img/kioptrixwt2_1.png)
 - *Findings*
 	1. Outdated Applications - Google common exploits for given Version
 		1) Apache
@@ -38,11 +38,11 @@ Default Password: TwoCows2
 - File extension: php,txt,zip _choose the extension you want to look for_ 
 _*Note: more extension more time*_
 - START
-![niktoScan](/posts/img/kioptrix2_2.png)
+![niktoScan](/posts/img/kioptrixwt2_2.png)
 
 *_Tip: Dir Scan takes a while. It is always a good idea to start the scan as soon as possible so we can do other task while the scan is running in Background._*
 
-![Burpsuite Config](/posts/img/kioptrixwt2_3)
+![Burpsuite Config](/posts/img/kioptrixwt2_3.png)
 
 ### BURPSUITE
 	Security Testing Web Applications
@@ -53,20 +53,20 @@ _*Note: more extension more time*_
 - Start Burp
 - Choose _Proxy_ from Top Menu
 - Click on *Intercept is off* to tun it on and Open Browser
-![Burpsuite Config](/posts/img/kioptrixwt2_4)
+![Burpsuite Config](/posts/img/kioptrixwt2_4.png)
 
 - Open _target url_ on the browser
 - on the text area _right click_ > _send to repeater_
 - go to New option _repeater_ on top menu
 - try changing command and send
 - This can modify website
-![Burpsuite Config](/posts/img/kioptrixwt2_5)
+![Burpsuite Config](/posts/img/kioptrixwt2_5.png)
 
 - Screenshot or save result for info Disclosure
 - Go to _Target > Sitemap > Response_ 
 - Screenshot for Info Disclosure
 - Turn _Intercept_ Off
-![Burpsuite Config](/posts/img/kioptrixwt2_6)
+![Burpsuite Config](/posts/img/kioptrixwt2_6.png)
 
 
 ### Dirbuster (again)
