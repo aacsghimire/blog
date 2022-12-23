@@ -78,3 +78,70 @@ _*Note: more extension more time*_
 - At the bottom there is *Webalizer 2.01* 
 - Lets note that
 *_Note: Check through files and sources for possible Passwords and Leaks_*
+
+
+### METASPLOIT
+	Exploitation Framework
+
+- `msfconsole`
+- msf6 > `search smb`
+- You will see many results, lets find _SMB version_
+- there's a path _auxiliary/scanner/smb/smb_version_ (Long way to do it)
+- `use auxiliary/scanner/smb/smb_version`
+- `info`
+- We found _RHOSTS_ so far, which stands for _Remote Hosts_
+- `set RHOSTS _Target IP_`
+- `run`
+- We found 
+	-  Samba 2.2.1a
+
+### SMB Client
+	Connect to file share
+
+- `smbclient -L \\\\target ip\\ `
+	- _-L_ lists the files
+	- use the slashes(\)
+- Just Press Enter without Password
+![Samba Result](/posts/img/kioptrixwt2_7.png)
+
+```
+NOTE: 
+Question: My enum4linux and/or smbclient are not working. I am receiving "Protocol negotiation failed: NT_STATUS_IO_TIMEOUT". How do I resolve?
+
+Resolution:
+On Kali, edit /etc/samba/smb.conf
+Add the following under global:
+client min protocol = CORE
+client max protocol = SMB3
+```
+
+- Here we find IPC and $admin , $admin is useful to us lets try it
+- Let's try again
+- `smbclient \\\\target ip\\ADMIN$`
+	- Wrong Password
+- `smbclient -L \\\\target ip\\IPC$`
+	- We are inside *SMB*
+	- `ls` : To list files
+	- _ACCESS DENIED_
+
+
+### SSH
+	Remote Login
+
+- From our `nmap scan` we have _OpenSSH version 2.9p2_
+- `ssh target_ip`
+	- _Their offer: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1_
+- `ssh target_ip -oKexAlgorithms=+diffie-hellman-group1-sha1`
+	- It is going to ask for Cypher
+- If you get _Their offer: ssh-rsa,ssh-dss_
+	- Navigate to ~/.ssh/config
+	- add 
+		HOST _targetip_
+			HostKeyAlgorithms +ssh-dss
+
+- Now it asks for _cypher_
+- `ssh target_ip -oKexAlgorithms=+diffie-hellman-group1-sha1 -c aes128-cbc`
+- Its asks for confirmation _Type: yes_
+- It prompts for password
+- Lets exit
+	- We are not going to exploit Now.
