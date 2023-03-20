@@ -6,5 +6,5 @@ tags: [ "reverseShell", "Pentest"]
 categories: ["Tech"]
 ---
 
-[Reverse Shell Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
-[Linux Privilege Escalation Tools - GTFOBins](https://gtfobins.github.io/)
+- [Reverse Shell Cheatsheet](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md)
+- [Linux Privilege Escalation Tools - GTFOBins](https://gtfobins.github.io/)
