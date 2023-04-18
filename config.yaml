@@ -9,43 +9,43 @@ enableRobotsTXT: true
 googleAnalytics: G-1N1YQXV33M
 
 params:
-    homeInfoParams:
-        Title: Road to OSCP
-        Content: This is my notesite I post anything I learn along the way.
+  homeInfoParams:
+    Title: Road to OSCP
+    Content: This is my notesite I post anything I learn along the way.
 
-    socialIcons: # optional
-        - name: twitter
-          url: https://twitter.com/aacsghimire
-        # - name: youtube
-        #   url:
-        # - name: tiktok
-        #   url: https://tiktok.com/@ghostaacs
-    
-    # blog configurations
-    canonicalURL: true
-    ShowReadingTime: true
-    ShowShareButtons: true 
-    ShowPostNavLinks: true # shows mext and previous
-    ShowBreadCrumbs: true
-    ShowRssButtonInSectionTermList: true 
-    ShowCodeCopyButtons: false
-    
-    #for enhanced SEO
-    markup:
-      goldmark:
-        renderer:
-          unsafe: true
+  socialIcons: # optional
+    - name: twitter
+      url: https://twitter.com/aacsghimire
+    - name: github
+      url: https://github.com/ghimireaacs
+    # - name: tiktok
+    #   url: https://tiktok.com/@ghostaacs
 
-    env: production
+  # blog configurations
+  canonicalURL: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true # shows mext and previous
+  ShowBreadCrumbs: true
+  ShowRssButtonInSectionTermList: true
+  ShowCodeCopyButtons: false
 
-    #modify icons
-    assets:
-        favicon: /img/favicon/favicon.ico
-        apple_touch_icon: /img/favicon/apple-touch-icon.png
-    label:
-        text: Ashish
-        icon: /img/logo/dark.png
-        iconHeight: 35
+  #for enhanced SEO
+  markup:
+    goldmark:
+      renderer:
+        unsafe: true
+
+  env: production
+
+  #modify icons
+  assets:
+    favicon: /img/favicon/favicon.ico
+    apple_touch_icon: /img/favicon/apple-touch-icon.png
+  label:
+    text: Ashish
+    icon: /img/logo/dark.png
+    iconHeight: 35
 
 # mostly for search and Output
 outputs:
@@ -54,26 +54,25 @@ outputs:
     - RSS
     - JSON # is necessary
 
-# main for top 
+# main for top
 menu:
-    main:
-        - identifier: archive
-          name: Archive
-          url: /archives/
+  main:
+    - identifier: archive
+      name: Archive
+      url: /archives/
 
-        - identifier: search
-          name: Search
-          url: /search/
-        
-        - identifier: categories
-          name: Categories
-          url: /categories/
-        
-        - identifier: tag
-          name: TAGS
-          url: /tags/
+    - identifier: search
+      name: Search
+      url: /search/
 
-        - identifier: Dashboard
-          name: Dashboard
-          url: https://ashishghimire.com
+    - identifier: categories
+      name: Categories
+      url: /categories/
 
+    - identifier: tag
+      name: TAGS
+      url: /tags/
+
+    - identifier: Dashboard
+      name: Dashboard
+      url: https://ashishghimire.com
