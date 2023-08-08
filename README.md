@@ -1,2 +1,3 @@
-Blog Repo for
-blog.ashishghimire.com
+Notes Blog Repo for
+notes.ashishghimire.com
+
